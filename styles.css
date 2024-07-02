@@ -1,0 +1,85 @@
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    margin: 0;
+  }
+  
+  .container {
+    background: #e7e5e5;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .upload-section,
+  .resize-section,
+  .output-section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"],
+  input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  canvas {
+    display: flex;
+    margin: 0 auto 20px;
+  }
+  
+  a#download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  a#download-btn:hover {
+    background-color: #218838;
+  }
+
+  #resize-section{
+    box-sizing: border-box;
+  }
+
+  .output-section{
+    padding: 10px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: solid;
+  }
+  
